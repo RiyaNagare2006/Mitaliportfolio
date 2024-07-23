@@ -1,0 +1,74 @@
+<style>
+.parent {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.child1 {
+  height: 100vh;
+  background-color: rgb(231, 231, 231);
+  width: 40vw;
+  position: relative;
+  left: 30vw;
+}
+
+.child2 {
+  height: 90vh;
+  width: 30vw;
+  background-color: white;
+  position: relative;
+  top: 5vh;
+  left: 5vw;
+  border-radius: 10px;
+
+}
+.child{
+  text-align: center;
+
+}
+
+.image {
+  width: 28vw;
+  position: relative;
+  left: 1vw;
+  top: 1vh;
+  border-radius: 11px;
+}
+
+h1 {
+  position: relative;
+  width: 28vw;
+  left: 1vw;
+  top: 6vh;
+
+}
+
+p {
+  position: relative;
+  width: 28vw;
+  left: 3vw;
+  top: 2vh;
+  word-spacing: 30px;
+  color: rgb(180, 180, 180);
+}
+
+.child3 {
+  position: relative;
+  width: 28vw;
+  left: 1vw;
+  top: 10vh;
+}
+
+.red {
+  position: relative;
+  width: 8vw;
+  top: 12vh;
+  text-align: center;
+  background-color: rgb(219, 218, 255);
+  color: blue;
+  border-radius: 20px;
+  padding: 9px;
+  border: 2px solid rgb(219, 218, 255);
+}
+</style>
