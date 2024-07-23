@@ -143,3 +143,86 @@ color: rgb(251, 255, 120);
 .five {
 color: rgb(251, 255, 120);
 }
+* {
+margin: 0px;
+box-sizing: border-box;
+}
+
+body {
+background-image: url('bg3.jpg');
+}
+
+.container {
+display: flex;
+align-items: flex-start;
+padding: 20px;
+}
+
+.photo-container {
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-right: 20px;
+}
+
+.photo-container img {
+width: 200px; /* Adjust the size as needed */
+border-radius: 8px;
+margin-bottom: 20px;
+}
+
+.icon-container {
+display: flex;
+justify-content: center;
+position: absolute;
+bottom: -25px; /* Adjust the position to overlap the photo */
+}
+
+.links {
+height: 50px;
+width: 50px;
+background-color: #f5f6fa;
+border-radius: 50px;
+text-align: center;
+margin: 10px;
+box-shadow: 1px 4px 2px 2px #dcdde1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.links i {
+transition: all 0.3s linear;
+font-size: 30px;
+line-height: 50px; /* Center icon vertically */
+}
+
+.links:hover i {
+transform: scale(1.4);
+}
+
+.fa-linkedin {
+color: #0097e6;
+}
+
+.fa-instagram {
+color: #e84393;
+}
+
+.content {
+margin-top: 40px; /* Add margin to separate from the "About me" section */
+}
+
+.heading {
+font-family: 'Dancing Script', cursive;
+font-size: 2rem;
+margin-bottom: 10px;
+}
+
+p {
+margin-bottom: 20px;
+}
+ul>li{
+padding: 5px;
+}
